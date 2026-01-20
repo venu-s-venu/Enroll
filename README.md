@@ -1,12 +1,12 @@
 # Enroll
 Enroll Management System
-📌 Overview
+## 📌 Overview
 
 The Enroll Management System is a role-based web application that allows Admins and Users to interact with the system in a controlled and structured way.
 The main goal is to manage user enrollment data efficiently and give admins full visibility over all registered users.
 
-👥 User Roles
-1. User
+## 👥 User Roles
+## 1. User
 
 Users can:
 
@@ -20,7 +20,7 @@ Update their personal details
 
 Each user can access only their own data. No shortcuts. No access to other users.
 
-2. Admin
+## 2. Admin
 
 Admins have full control over the system.
 
@@ -38,7 +38,7 @@ Monitor and manage user data efficiently
 
 Admins cannot modify system logic accidentally — only manage users.
 
-🔑 Key Features
+## 🔑 Key Features
 
 Role-based authentication (User / Admin)
 
@@ -52,7 +52,7 @@ Clear separation of permissions
 
 Scalable structure for future features
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 Frontend: HTML, CSS, JavaScript
 
@@ -60,7 +60,7 @@ Backend: PHP
 
 Database: MySQL
 
-🎯 Purpose of This Project
+## 🎯 Purpose of This Project
 
 This project was built to:
 
@@ -72,7 +72,7 @@ Practice backend + database integration
 
 Build a real-world admin–user management system
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Admin can deactivate or delete users
 
