@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+body{
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(to right, #e2e2e2,#c9d6ff);
+        color : #333;  
+}
+.container{
+    margin: 0 15px;
+}
+.form-box{
+    width:100%;
+    max-width: 450px;
+    padding:30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.0.1);
+    display:none;
+}
+.form-box.active{
+    display:block;
+}
+h2{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+input, select{
+    width:100%;
+    padding:12px;
+    background: #eee;
+    border-radius: 6px;
+    font-size: 16px;
+    margin:8px 0;
+    border:none;
+    outline:none;
+}
+button{
+    width:100%;
+    padding:12px;
+    background: #5b86e5;
+
+    border:none;
+    outline:none;
+    border-radius: 6px;
+    font-size: 18px;
+    color:#fff;
+    cursor: pointer;
+    margin-top:10px;
+}
+button:hover{
+     background: #36d1dc;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+p a{
+    text-decoration: none;
+    color:#5b86e5;
+}
+p a:hover{
+    text-decoration: underline;
+    color:#36d1dc
+}
+.error-message{
+    padding: 12px;
+    background: #f8d7da;
+    font-size:16px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
