@@ -6,7 +6,7 @@ require_once 'config.php';
 $usersResult = $conn->query("SELECT id, name, email, role FROM users");
 $users = [];
 if ($usersResult) {
-    while ($row = $usersResult->fetch_assoc()) {
+    while ($row = $usersResult->fetch_assoc()) { 
         $users[] = $row;
     }
 }
@@ -314,3 +314,4 @@ if ($usersResult) {
 </body>
 
 </html>
+
