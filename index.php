@@ -4,7 +4,7 @@ $errors=[
     'login'=>$_SESSION['login_error'] ?? '',
     'register'=>$_SESSION['register_error'] ?? '',
 ];
-$success=[
+$success=[ 
     'register'=>$_SESSION['register_success'] ?? '',
 ];
 $activeForm=$_SESSION['active_form'] ?? 'login';
@@ -65,4 +65,5 @@ function isActiveForm($formName, $activeForm){
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
