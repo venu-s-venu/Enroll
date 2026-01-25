@@ -1,7 +1,7 @@
 !Build/
 .last_cover_stats
 /META.yml
-/META.json
+/META.json 
 /MYMETA.*
 *.o
 *.pm.tdy
